@@ -1,0 +1,181 @@
+/*========================================
+---------Common CSS Rule-----------------
+=========================================*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.description{
+  text-align: justify;
+  color: #999;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.text-heighlight{
+  color: #ff1a73;
+}
+
+.button{
+  text-decoration: none;
+  background-color: #ff1a73;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.heading{
+  font-size: 30px;
+  margin-top: 100px;
+  font-weight: 400;
+}
+.column{
+  width: 27%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+}
+
+.gray-highlight{
+  text-align: center;
+  color: #999;
+}
+
+/*========================================
+---------Header CSS Rule----------------
+=========================================*/
+
+.main-header{
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
+
+h1{
+ font-size: 40px;
+ font-weight: 700;
+}
+
+.half-width{
+  width: 35%;
+  margin: 4%;
+  padding: 3%;
+  float: left;
+}
+
+.half-width img{
+  width: 100%;
+}
+.half-width h3{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+/*========================================
+---------Biography CSS Rule----------------
+=========================================*/
+.boigraphy{
+  background-image: url("../images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
+.boigraphy h1{
+  font-weight: 400;
+}
+
+
+/*========================================
+---------Latest Work CSS Rule----------------
+=========================================*/
+
+.latest-work{
+  background-image: url("../images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.column img{
+  width: 100%;
+}
+
+
+/*========================================
+---------Client CSS Rule----------------
+=========================================*/
+.client{
+  background-image: url("../images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.client h3{
+  margin-bottom: 40px;
+}
+.comments p{
+  padding-bottom: 85px;
+}
+.comments h4{
+  padding-top: 70px;
+}
+
+.message{
+  width: 45%;
+  background-color: #ff1a73;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+
+/*========================================
+---------Experience CSS Rule----------------
+=========================================*/
+
+.experience{
+  height: 600px;
+}
+.single-experice{
+  border-bottom: 2px solid #ff1a73;
+  box-shadow: 10px 5px 20px #999;
+}
+.single-experice p{
+  padding: 5px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 30px;
+  color: #999;
+}
+.top-border{
+  border-top: 7px solid;
+  border-image: linear-gradient(90deg, #ff1a73, #999);
+  border-image-slice: 1;
+}
+
+/*========================================
+---------Footer CSS Rule----------------
+=========================================*/
+
+footer p{
+  text-align: center;
+}
